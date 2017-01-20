@@ -30,7 +30,10 @@ def add_random(f):
     y,x=empty[randint(0,len(empty)-1)]
     f[y][x]=2
     if randint(0,9)>8:f[y][x]=4
-    return f
+    return 
+
+def hello_world():
+    print("Hello World")
 
 def get_new_field():
     f=[]
